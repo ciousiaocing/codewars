@@ -26,3 +26,16 @@ def longest_palindrome s
   end
   0
 end
+
+=begin
+
+  #chars
+    "aabbc".chars
+    => ["a", "a", "b", "b", "c"]
+
+  #each_cons
+    (1..10).each_cons(3) {|a| p a}
+    => [1, 2, 3]
+    => [2, 3, 4]
+
+=end
