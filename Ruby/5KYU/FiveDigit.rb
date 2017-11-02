@@ -32,3 +32,17 @@ end
 def solution(digits)
   digits.scan(/\d{5}/).max.to_i
 end
+
+=begin
+
+  #split
+  "12345".split('')
+  => ["1", "2", "3", "4", "5"]
+
+  #split vs chars
+
+  #scan
+  "123456789".scan(/\d{5}/)
+  => ["12345"]
+  
+=end
