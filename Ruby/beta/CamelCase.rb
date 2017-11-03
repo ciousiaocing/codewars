@@ -16,3 +16,11 @@ class String
     self.split(" ").map {|x| x.capitalize}.join
   end
 end
+
+# Ciou my solution
+class String
+  def camelcase
+    array = split(' ')
+    array.map{ |i| i.to_s.capitalize }.join  # i 不需要在 i.to_s
+  end
+end
