@@ -37,3 +37,18 @@ end
 def rgb(r, g, b)
   "%.2X%.2X%.2X" % [r,g,b].map{|i| [[i,255].min,0].max}
 end
+
+# %.2X%.2X%.2X ??
+
+# Other Solution
+def rgb(r, g, b)
+  [r, g, b].map do |c|
+    if c <= 0 
+      "00"
+    elsif c > 255
+      "FF"
+    else
+      c.to_s(16).upcase    
+    end
+  end.join('')
+end
