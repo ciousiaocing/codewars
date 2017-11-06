@@ -101,3 +101,28 @@ end
 def decodeMorse(morseCode)
   morseCode.strip.split("   ").map { |w| w.split(" ").map { |c| MORSE_CODE[c] }.join }.join(" ")
 end
+
+# Ciou Solution
+def decodeMorse(morseCode)
+  morseCode.lstrip.split("  ").map{ |i| 
+    i.split(" ").map{ |i| 
+      MORSE_CODE[i] 
+    }.join 
+  }.join(" ")
+end
+
+=begin
+#strip
+strip方法来去除字符串中的空格
+(1).strip去除所有空格(首尾，和中间出现的空格)
+" ruby ".strip => "ruby"
+
+(2).lstrip去除字符串的所有首空格
+" ruby".lstrip => "ruby"
+" ruby".lstrip => "ruby"（这个案例中字符串中ruby前面有两个空格，lstrip将空格全部去除了）
+
+(3).rstrip去除字符串的所有末尾空格
+"ruby ".strip => "ruby"
+"ruby ".strip => "ruby"
+
+=end
