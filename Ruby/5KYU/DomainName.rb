@@ -19,10 +19,26 @@ def domain_name(url)
   url = url[0...len]
 end
 
+# Ciou Solution
+def domain_name(url)
+  url.gsub("http://","").gsub("https://","").gsub("www.","").split(".").first
+end
+
 # Better Solution
 def domain_name(url)
   URI.parse(url).host.split('.').last(2)[0]
 end
+=begin
+
+URI.parse(url)
+=> <URI::HTTP http://github.com/carbonfive/raygun>
+=> <URI::HTTPS https://www.cnet.com>
+
+URI.parse(url).host
+=> "github.com"
+=> "www.cnet.com"
+
+=end
 
 # Another Solution
 def domain_name(url)
