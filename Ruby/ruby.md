@@ -319,6 +319,7 @@
 * [Mr. Safety's treasures](6KYU/Treasure.rb) - [CodeWars](https://www.codewars.com/kata/592c1dfb912f22055b000099)
 
 ### <a name="5KYU">5 KYU</a>
+* [Did I Finish my Sudoku?](5KYU/Sudoku.rb) - [CodeWars](https://www.codewars.com/kata/did-i-finish-my-sudoku/ruby)
 * [Maximum subarray sum](5KYU/Maximumsubarraysum.rb) - [CodeWars](https://www.codewars.com/kata/maximum-subarray-sum/ruby)
 * [Reversi row rudiments](5KYU/Reversi.rb) - [CodeWars](https://www.codewars.com/kata/55aa92a66f9adfb2da00009a)
 * [First non-repeating letter](5KYU/FirstLet.rb) - [CodeWars](https://www.codewars.com/kata/52bc74d4ac05d0945d00054e)
