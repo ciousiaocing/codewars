@@ -319,6 +319,7 @@
 * [Mr. Safety's treasures](6KYU/Treasure.rb) - [CodeWars](https://www.codewars.com/kata/592c1dfb912f22055b000099)
 
 ### <a name="5KYU">5 KYU</a>
+* [Conway's Game of Life](5KYU/Conway'sGame.rb) - [CodeWars](https://www.codewars.com/kata/conways-game-of-life/ruby)
 * [Number of trailing zeros of N!](5KYU/NumberOfTrailingZerosOfN.rb) - [CodeWars](https://www.codewars.com/kata/number-of-trailing-zeros-of-n/ruby)
 * [Where my anagrams at?](5KYU/WhereMyAnagramsAt.rb) - [CodeWars](https://www.codewars.com/kata/where-my-anagrams-at/ruby)
 * [Simple fraction to mixed number converter](5KYU/SimpleFraction.rb) - [CodeWars](https://www.codewars.com/kata/simple-fraction-to-mixed-number-converter/ruby)
