@@ -16,3 +16,13 @@ end
 def pig_it text
   text.gsub(/(\w)(\w+)*/, '\2\1ay')
 end
+
+## [正規表示式](https://guides.ruby.tw/ruby/regexp.html)
+
+# "=~" 是匹配的運算子 (operator)，如果發現符合的話，就會在字串中傳回位置，沒有符合就會傳回 nil
+ruby> "abcdef" =~ /d/
+=> 3
+ruby> "aaaaaa" =~ /d/
+=> nil
+
+#  \w	為一般字元 (word character)，即 [0-9A-Za-z_]
