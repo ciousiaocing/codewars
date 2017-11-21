@@ -319,6 +319,7 @@
 * [Mr. Safety's treasures](6KYU/Treasure.rb) - [CodeWars](https://www.codewars.com/kata/592c1dfb912f22055b000099)
 
 ### <a name="5KYU">5 KYU</a>
+* [Help your granny!](5KYU/Granny.rb) - [CodeWars](https://www.codewars.com/kata/help-your-granny/ruby)
 * [Last digit of a large number](5KYU/LastDigit.rb) - [CodeWars](https://www.codewars.com/kata/last-digit-of-a-large-number/ruby)
 * [Conway's Game of Life](5KYU/Conway'sGame.rb) - [CodeWars](https://www.codewars.com/kata/conways-game-of-life/ruby)
 * [Number of trailing zeros of N!](5KYU/NumberOfTrailingZerosOfN.rb) - [CodeWars](https://www.codewars.com/kata/number-of-trailing-zeros-of-n/ruby)
