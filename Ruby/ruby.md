@@ -319,6 +319,7 @@
 * [Mr. Safety's treasures](6KYU/Treasure.rb) - [CodeWars](https://www.codewars.com/kata/592c1dfb912f22055b000099)
 
 ### <a name="5KYU">5 KYU</a>
+* [String incrementer](5KYU/StringIncrementer.rb) - [CodeWars](https://www.codewars.com/kata/string-incrementer/ruby)
 * [Help your granny!](5KYU/Granny.rb) - [CodeWars](https://www.codewars.com/kata/help-your-granny/ruby)
 * [Last digit of a large number](5KYU/LastDigit.rb) - [CodeWars](https://www.codewars.com/kata/last-digit-of-a-large-number/ruby)
 * [Conway's Game of Life](5KYU/Conway'sGame.rb) - [CodeWars](https://www.codewars.com/kata/conways-game-of-life/ruby)
