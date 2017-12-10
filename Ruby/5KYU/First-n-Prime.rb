@@ -17,9 +17,9 @@ Primes.first(5)
 
 Primes.first(20).last(5)
 # => [53, 59, 61, 67, 71]
+
 Note: An inefficient algorithm will time out. Memoization may help.
 
 More info on primes here.
 
 =end
-
